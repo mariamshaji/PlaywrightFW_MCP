@@ -1,0 +1,31 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - heading [level=1] [ref=e5]:
+          - img "Microsoft Logo Image" [ref=e6] [cursor=pointer]
+        - navigation [ref=e12]:
+          - menubar [ref=e13]:
+            - menuitem [ref=e14] [cursor=pointer]:
+              - link "Images" [ref=e15]:
+                - /url: /images?FORM=Z9LH
+            - menuitem [ref=e16] [cursor=pointer]:
+              - link "Videos" [ref=e17]:
+                - /url: /videos?FORM=Z9LH1
+            - menuitem [ref=e18] [cursor=pointer]:
+              - link "Shopping" [ref=e19]:
+                - /url: /shop?FORM=Z9LHS4
+            - menuitem [ref=e20] [cursor=pointer]:
+              - link "Maps" [ref=e21]:
+                - /url: /maps?FORM=Z9LH2
+            - menuitem [ref=e22] [cursor=pointer]:
+              - link "News" [ref=e23]:
+                - /url: /news/search?q=Top+stories&nvaug=%5bNewsVertical+Category%3d%22rt_MaxClass%22%5d&FORM=Z9LH3
+            - menuitem [ref=e24] [cursor=pointer]:
+              - text: . . .
+              - button "More" [ref=e25]
+    - search [ref=e27]:
+      - button "Create images and text with AI" [ref=e30]
+      - combobox "Enter your search term" [active] [ref=e35]
+      - button "Search using an image" [ref=e38] [cursor=pointer]
+  - main [ref=e57]

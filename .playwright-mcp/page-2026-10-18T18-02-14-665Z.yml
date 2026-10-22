@@ -1,0 +1,98 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - heading [level=1] [ref=e5]:
+          - img "Microsoft Logo Image" [ref=e6] [cursor=pointer]
+        - navigation [ref=e12]:
+          - menubar [ref=e13]:
+            - menuitem [ref=e14] [cursor=pointer]:
+              - link "Images" [ref=e15]:
+                - /url: /images?FORM=Z9LH
+            - menuitem [ref=e16] [cursor=pointer]:
+              - link "Videos" [ref=e17]:
+                - /url: /videos?FORM=Z9LH1
+            - menuitem [ref=e18] [cursor=pointer]:
+              - link "Shopping" [ref=e19]:
+                - /url: /shop?FORM=Z9LHS4
+            - menuitem [ref=e20] [cursor=pointer]:
+              - link "Maps" [ref=e21]:
+                - /url: /maps?FORM=Z9LH2
+            - menuitem [ref=e22] [cursor=pointer]:
+              - link "News" [ref=e23]:
+                - /url: /news/search?q=Top+stories&nvaug=%5bNewsVertical+Category%3d%22rt_MaxClass%22%5d&FORM=Z9LH3
+            - menuitem [ref=e24] [cursor=pointer]:
+              - text: . . .
+              - button "More" [ref=e25]
+    - generic [ref=e26]:
+      - search [ref=e27]:
+        - button "Create images and text with AI" [ref=e30] [cursor=pointer]
+        - combobox "Enter your search term" [active] [ref=e35]
+        - button "Search using voice" [ref=e37] [cursor=pointer]
+        - button "Search using an image" [ref=e41] [cursor=pointer]
+        - group "Languages:" [ref=e47]:
+          - link "Hindi" [ref=e49] [cursor=pointer]:
+            - /url: /?setlang=hi&cc=in&cc=IN
+            - text: हिंदी
+          - link "Bangla (India)" [ref=e50] [cursor=pointer]:
+            - /url: /?setlang=bn&cc=in&cc=IN
+            - text: বাংলা
+          - link "Urdu (Pakistan)" [ref=e51] [cursor=pointer]:
+            - /url: /?setlang=ur&cc=in&cc=IN
+            - text: اردو
+          - link "Punjabi (Gurmukhi)" [ref=e52] [cursor=pointer]:
+            - /url: /?setlang=pa-guru&cc=in&cc=IN
+            - text: ਪੰਜਾਬੀ
+          - link "Marathi" [ref=e53] [cursor=pointer]:
+            - /url: /?setlang=mr&cc=in&cc=IN
+            - text: मराठी
+          - link "Telugu" [ref=e54] [cursor=pointer]:
+            - /url: /?setlang=te&cc=in&cc=IN
+            - text: తెలుగు
+          - link "Tamil" [ref=e55] [cursor=pointer]:
+            - /url: /?setlang=ta&cc=in&cc=IN
+            - text: தமிழ்
+          - link "Kannada" [ref=e56] [cursor=pointer]:
+            - /url: /?setlang=kn&cc=in&cc=IN
+            - text: ಕನ್ನಡ
+          - link "Gujarati" [ref=e57] [cursor=pointer]:
+            - /url: /?setlang=gu&cc=in&cc=IN
+            - text: ગુજરાતી
+          - link "Malayalam (India)" [ref=e58] [cursor=pointer]:
+            - /url: /?setlang=ml&cc=in&cc=IN
+            - text: മലയാളം
+          - link "Odia (India)" [ref=e59] [cursor=pointer]:
+            - /url: /?setlang=or&cc=in&cc=IN
+            - text: ଓଡ଼ିଆ
+      - generic [ref=e63]:
+        - link "Create Images" [ref=e64] [cursor=pointer]:
+          - /url: /search?q=image creator&FORM=bicbhp
+        - link "Create Text" [ref=e67] [cursor=pointer]:
+          - /url: /search?q=bing ai writing&FORM=btcbhp
+  - generic [ref=e71]:
+    - main [ref=e84]
+    - generic [ref=e87]:
+      - generic [ref=e89]:
+        - generic:
+          - generic:
+            - link "Get the Bing Wallpaper app":
+              - /url: https://go.microsoft.com/fwlink/?linkid=2127455
+          - 'heading "Image of the day: Dolbadarn Castle, Llanberis, Eryri National Park (Snowdonia), Wales" [level=3]':
+            - 'link "Image of the day: Dolbadarn Castle, Llanberis, Eryri National Park (Snowdonia), Wales"':
+              - /url: /search?q=Eryri+National+Park+Wales&form=hpcapt&filters=HpDate:"20261017_1830"+mgzv3configlist:"BingQA_Encyclopedia_Layout"
+              - text: Dolbadarn Castle, Llanberis, Eryri National Park (Snowdonia), Wales
+          - generic:
+            - generic: © joe daniel price/Getty Images
+            - list:
+              - listitem:
+                - button "Download this image. Use of this image is restricted to wallpaper only."
+        - generic [ref=e90]:
+          - link [ref=e92] [cursor=pointer]:
+            - /url: /search?q=Eryri+National+Park+Wales&form=hpcapt&filters=HpDate:"20261017_1830"+mgzv3configlist:"BingQA_Encyclopedia_Layout"
+            - heading "75 and thriving" [level=2] [ref=e97]
+          - generic [ref=e98] [cursor=pointer]:
+            - status [ref=e99]
+            - button "Previous image" [disabled] [ref=e100]
+            - button "Next image" [disabled] [ref=e102]
+      - generic:
+        - complementary

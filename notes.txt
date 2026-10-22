@@ -1,0 +1,38 @@
+Bing prompt:
+Generate a playwright python test case for the given scenario in "tests" directory.
+Scenario : Navigae to www.bing.com and verify the tile of the webpage as "Search - Microsoft Bing".
+Give the scnario name as the test case name.
+I dont want any understanding documents, only creat the program.
+
+Saucedemo prompt:
+Generate a playwright python test case for the given scenario in "tests" directory.
+Scenario : Navigate to "www.saucedemo.com". Enter the username as "standard_user" and password as "secret_sauce".
+Click on Login button. Validate the home page url "https://www.saucedemo.com/inventory.html". Wait for 3 seconds 
+and terminate.Give the file name as  'saucedemo_login_tc'.
+I dont want any understanding documents, only creat the program.
+
+
+Bing radio button:
+Scenario : Go to "https://www.bing.com/account/general?ru" and in the SafeSearch settings,
+enable the strict radio button.
+
+
+
+I want to Create a framework for Playwirght using python using Page Object Model design pattern.
+Below are the guidenelines:
+1. I want below packages in the framework
+    -- pytest
+    -- playwright
+    -- pytest-html
+    -- pytest-xdist
+    -- allure-pytest
+2. below is the folder structure you should create
+    -- pages - define page locators and related methods using those locators
+    -- tests - create the test cases using the methods created in the pages
+    -- utils - define reusable utilities if any
+    -- reports - all html and allure reports should be here
+    -- pytest.ini - define pytest configurations
+
+create within this project itself
+
+
